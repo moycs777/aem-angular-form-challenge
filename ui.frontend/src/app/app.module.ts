@@ -23,6 +23,10 @@ import { AemAngularCoreWcmComponentsSeparatorV1 } from "@adobe/aem-core-componen
 import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-components-angular-spa/containers/accordion/v1";
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
 import { BasicComponentComponent } from "./components/basic-component/basic-component.component";
+import { FormContainerComponent } from './components/form-container/form-container.component';
+import { FormHeaderComponent } from './components/form-header/form-header.component';
+import { FormBodyComponent } from './components/form-body/form-body.component';
+import { FormBodyHeaderComponent } from './components/form-body-header/form-body-header.component';
 
 @NgModule({
   imports: [
@@ -42,7 +46,7 @@ import { BasicComponentComponent } from "./components/basic-component/basic-comp
     AemAngularCoreWcmComponentsLanguageNavigationV1,
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent, BasicComponentComponent],
+  declarations: [AppComponent, PageComponent, BasicComponentComponent, FormContainerComponent, FormHeaderComponent, FormBodyComponent, FormBodyHeaderComponent],
   entryComponents: [PageComponent, BasicComponentComponent],
   bootstrap: [AppComponent],
 })
