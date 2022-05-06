@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-header.component.scss']
 })
 export class FormHeaderComponent implements OnInit {
-
+  tabName = "First tab";
   constructor() { }
 
   ngOnInit(): void {

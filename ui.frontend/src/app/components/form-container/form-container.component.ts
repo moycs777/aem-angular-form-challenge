@@ -1,3 +1,4 @@
+import { MapTo } from '@adobe/aem-spa-component-mapping';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,3 +14,4 @@ export class FormContainerComponent implements OnInit {
   }
 
 }
+MapTo('angularapp/components/form-container')(FormContainerComponent);

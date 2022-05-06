@@ -22,122 +22,13 @@ p {
   font-family: "Space Mono", Helvetica, Arial, sans-serif;
 } */
 
-/*  Containers */
-/* main */
-.main-container {
-  display: block;
+app-form-body {
+  background-color: #E5E5E5;
 }
-/* other container */
-.container {
-	display: flex;
-	max-width: 100%;
-} 
-/* second container */
-.secondary-container {
-  margin-top: 250px;
-}
-/* Text, button container */
-.content-container {
-	flex: 1;
-}
-/* container for the scarecrow image */
-.scarecrow-container {
-  text-align: center;
-  margin-top: 50px;
-}
-/* generic margin */
-.margin-top-40 {
-  margin-top: 40px;
-}
-/*  /Rows */
-
-/* 404 text */
-.text__not-fount {
-  left: 36px;
-  width: 300px;
-  height: 25px;
-  font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';
-  font-style: normal;
-  font-weight: 700, bold;
-  font-size: 24px;
-  line-height: 25px;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #333333;
-}
-
-/* scarecrow image */
-.scarecrow-img {
-  width: 80%;
-}
-
-/* bigger title */
-.title-message__text {
-  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
-  color: #333333;
-}
-
-/* detail message */
-.text__message {
-  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.035em;
-  color: #4F4F4F;
-}
-
-/* black button */
-.button__black {
-  color: #ffffff;
-  width: 216px;
-  height: 68px;
-  background: #333333;
-}
-
 
 /* Mobile styles */
-@media (max-width: 800px) {
-  .container {
-    display: block;
+@media screen and (max-width: 601px) {
+  app-form-body {
+    background-color: #fff;
   }
-  .secondary-container {
-    margin-top: 40px;
-  }
-  .scarecrow-container {
-    margin-top: 40px;
-  }
-  .content-container {
-    /* margin: 10%; */
-  }
-  .text__not-fount {
-    position: relative;
-    left: 36px;
-    top: 0;
-  }
-  .title-message__text {
-    font-size: 48px;
-  }
-}
-button {
-  color: #ffffff;
-  width: 216px;
-  height: 68px;
-  background: #333333 !important;
-}
-
-.footer {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
-  font-style: normal;
-  font-weight: 500 !important;
-  font-size: 14px !important;
-  line-height: 17px;
-  text-align: center;
-  color: #BDBDBD;
 }

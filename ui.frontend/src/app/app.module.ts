@@ -48,5 +48,6 @@ import { FormBodyHeaderComponent } from './components/form-body-header/form-body
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
   declarations: [AppComponent, PageComponent, BasicComponentComponent, FormContainerComponent, FormHeaderComponent, FormBodyComponent, FormBodyHeaderComponent],
   entryComponents: [PageComponent, BasicComponentComponent, FormContainerComponent, FormHeaderComponent, FormBodyComponent, FormBodyHeaderComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,0 +1,34 @@
+.form-header__container {
+    height: 180px;
+    display:flex;
+    align-items: center;
+    background: #E5E5E5;
+    border-bottom: #AAAAAA;
+}
+.form-header__titles {    
+    margin-left: 8%;
+}
+.form-header__sub-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+.form-header__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #074EE8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
